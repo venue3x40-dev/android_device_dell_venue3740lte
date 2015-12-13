@@ -17,3 +17,7 @@
 $(call inherit-product, device/dell/venue3x40-common/device-common.mk)
 $(call inherit-product, device/dell/venue3x40-common/device-common-7.mk)
 $(call inherit-product, device/dell/venue3x40-common/device-common-lte.mk)
+
+# Board identifier
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.board_id=2
