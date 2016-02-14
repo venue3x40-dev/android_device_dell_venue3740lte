@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "venue3x40-dev/android_device_dell_venue3x40-common",
+    "target_path": "device/dell/venue3x40-common",
+    "revision": "twrp"
+  }
+]
