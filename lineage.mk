@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/dell/venue3740lte/full_venue3740lte.mk)
 
-PRODUCT_NAME := cm_venue3740lte
+PRODUCT_NAME := lineage_venue3740lte
 PRODUCT_BRAND := Dell
 PRODUCT_MODEL := Venue 3740 LTE
 
